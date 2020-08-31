@@ -9,7 +9,8 @@ class App extends Component {
     this.props.dispatch(addItem());
   }
 
-  render() {
+  render() {\
+  debugger
     return (
       <div className="App">
         <button onClick={(event) => this.handleOnClick(event)}>
